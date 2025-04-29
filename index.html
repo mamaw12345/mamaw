@@ -3,1547 +3,1054 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <title>
-   Punta Verde &amp; Lobo Batangas Tourism Guide
+   Lobo, Batangas Tourism
   </title>
   <script src="https://cdn.tailwindcss.com">
   </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
   <style>
    body {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
     }
-    h1, h2, h3, h4, h5 {
-      font-family: 'Montserrat', sans-serif;
+    /* Scrollbar for better UX */
+    ::-webkit-scrollbar {
+      width: 8px;
     }
-
-
-      body {
-         font-family: 'Poppins', sans-serif;
-         scroll-behavior: smooth;
-       }
-       /* Scrollbar for better UX */
-       ::-webkit-scrollbar {
-         width: 8px;
-       }
-       ::-webkit-scrollbar-thumb {
-         background-color: #4f46e5;
-         border-radius: 10px;
-       }
-       /* Custom container max width for better readability */
-       .container {
-         max-width: 1200px;
-         margin-left: auto;
-         margin-right: auto;
-         padding-left: 1rem;
-         padding-right: 1rem;
-       }
-     </style>
- </head>  <!-- Navbar -->
- <nav class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-indigo-200">
-  <div class="container flex justify-between items-center h-16">
-   <a aria-label="Lobo Batangas Home" class="text-indigo-700 font-extrabold text-2xl tracking-wide hover:text-indigo-900 transition" href="#home">
-    LOBO, BATANGAS
-   </a>
-   <div class="hidden md:flex space-x-10 font-semibold text-indigo-700">
-    <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="index.html" role="link" tabindex="0">
+    ::-webkit-scrollbar-thumb {
+      background-color: #4f46e5;
+      border-radius: 10px;
+    }
+    /* Custom container max width for better readability */
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-b from-indigo-50 via-white to-indigo-50 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50 border-b border-indigo-200">
+   <div class="container flex justify-between items-center h-16">
+    <a aria-label="Lobo Batangas Home" class="text-indigo-700 font-extrabold text-2xl tracking-wide hover:text-indigo-900 transition" href="#home">
+     LOBO, BATANGAS
+    </a>
+    <div class="hidden md:flex space-x-10 font-semibold text-indigo-700">
+     <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#home" role="link" tabindex="0">
+      Home
+     </a>
+     <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#about" role="link" tabindex="0">
+      About Us
+     </a>
+     <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#destinations" role="link" tabindex="0">
+      Tourist Destinations
+     </a>
+     <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="rooms.html" role="link" tabindex="0">
+    Resorts
+     </a>
+     <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#booking" role="link" tabindex="0">
+      Book/Reservation
+     </a>
+    </div>
+    <div class="md:hidden">
+     <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu" class="text-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600 p-2 rounded-md" id="menu-btn">
+      <i class="fas fa-bars fa-lg">
+      </i>
+     </button>
+    </div>
+   </div>
+   <div aria-label="Mobile menu" class="hidden md:hidden bg-white/95 backdrop-blur-md border-t border-indigo-200" id="mobile-menu" role="menu">
+    <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#home" role="menuitem" tabindex="0">
      Home
     </a>
-    <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#about" role="link" tabindex="0">
+    <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#about" role="menuitem" tabindex="0">
      About Us
     </a>
-    <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#destinations" role="link" tabindex="0">
+    <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#destinations" role="menuitem" tabindex="0">
      Tourist Destinations
     </a>
-    <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="rooms.html" role="link" tabindex="0">
-    Resorts
+    <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#availability" role="menuitem" tabindex="0">
+     Availability
     </a>
-    <a class="hover:text-indigo-900 transition px-3 py-2 rounded-md" href="#booking" role="link" tabindex="0">
+    <a class="block px-6 py-4 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#booking" role="menuitem" tabindex="0">
      Book/Reservation
     </a>
    </div>
-   <div class="md:hidden">
-    <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu" class="text-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600 p-2 rounded-md" id="menu-btn">
-     <i class="fas fa-bars fa-lg">
-     </i>
-    </button>
+  </nav>
+  <script>
+   const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true' || false;
+      btn.setAttribute('aria-expanded', !expanded);
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <!-- Home Section -->
+  <section aria-label="Home section with banner and introduction" class="relative bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 text-white" id="home">
+   <div class="container py-20 flex flex-col-reverse lg:flex-row items-center gap-12">
+    <div class="lg:w-1/2 space-y-8">
+     <h1 class="text-5xl font-extrabold leading-tight drop-shadow-lg">
+      Lobo: Discover the Hidden Gem of Batangas.
+     </h1>
+     <h2 class="text-2xl font-semibold italic text-indigo-200 drop-shadow-md">
+      Lobo: Where lighthouse whispers meet the sea's embrace.
+     </h2>
+     <p class="text-lg leading-relaxed max-w-xl drop-shadow-md">
+      Nestled in the heart of Batangas, Lobo beckons with a captivating blend of history and breathtaking natural beauty. Imagine standing beneath the stoic Malabrigo Lighthouse, a historical beacon guiding seafarers for over a century. Explore the vibrant underwater world teeming with life in its pristine marine sanctuaries, easily accessible by a kaybanga, the traditional outrigger boat. Beyond its stunning beaches and crystal-clear waters, Lobo offers a taste of authentic Batangas culture and delectable local cuisine, making it a truly special and unforgettable destination.
+     </p>
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div class="bg-indigo-700/80 rounded-lg p-5 shadow-lg border border-indigo-500">
+       <h3 class="text-xl font-semibold mb-2 text-indigo-100">
+        Cultural Events
+       </h3>
+       <p class="text-indigo-200 leading-relaxed">
+        <span class="font-semibold">
+         Anihan Festival:
+        </span>
+        Celebrated every last week of September, this festival showcases the bountiful harvest of Lobo. It features street parades, dance competitions, a float parade, and an agri-fair. The festival is a vibrant expression of gratitude for the town's agricultural abundance.
+       </p>
+      </div>
+      <div class="bg-indigo-700/80 rounded-lg p-5 shadow-lg border border-indigo-500">
+       <h3 class="text-xl font-semibold mb-2 text-indigo-100">
+        Local Cuisine
+       </h3>
+       <ul class="list-disc list-inside space-y-1 text-indigo-200 text-sm leading-relaxed max-h-48 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-indigo-400 scrollbar-track-indigo-700">
+        <li>
+         <span class="font-semibold">
+          Adobo sa Dilaw:
+         </span>
+         A local variation of adobo, made with chicken or pork and turmeric.
+        </li>
+        <li>
+         <span class="font-semibold">
+          Balut:
+         </span>
+         A fertilized duck egg, a popular Filipino delicacy.
+        </li>
+        <li>
+         <span class="font-semibold">
+          Bibingka:
+         </span>
+         A rice cake made with coconut milk and topped with cheese and salted egg.
+        </li>
+        <li>
+         <span class="font-semibold">
+          Suman:
+         </span>
+         A sweet rice cake wrapped in banana leaves.
+        </li>
+        <li>
+         <span class="font-semibold">
+          Indian Mango Wine:
+         </span>
+         A unique wine made from local Indian mangoes.
+        </li>
+        <li>
+         <span class="font-semibold">
+          Kamias Candy:
+         </span>
+         A sweet treat made from the Kamias fruit.
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="mt-10 flex flex-wrap gap-5">
+      <a class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition" href="#destinations" role="button" tabindex="0">
+       Explore Destinations
+      </a>
+      <a class="inline-block border-2 border-indigo-500 hover:border-indigo-600 text-indigo-600 hover:text-indigo-700 font-semibold py-3 px-8 rounded-lg shadow-lg transition" href="#availability" role="button" tabindex="0">
+       Check Availability
+      </a>
+      <a class="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition" href="#booking" role="button" tabindex="0">
+       Book Your Trip
+      </a>
+     </div>
+    </div>
+    <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-2xl ring-4 ring-indigo-600 ring-opacity-50">
+     <img alt="" class="w-full h-auto object-cover" height="400" loading="lazy" src="/HOME/IMG_0623.JPG" width="600"/>
+    </div>
    </div>
-  </div>
-  <div aria-label="Mobile menu" class="hidden md:hidden bg-white/95 backdrop-blur-md border-t border-indigo-200" id="mobile-menu" role="menu">
-   <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#home" role="menuitem" tabindex="0">
-    Home
-   </a>
-   <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#about" role="menuitem" tabindex="0">
-    About Us
-   </a>
-   <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#destinations" role="menuitem" tabindex="0">
-    Tourist Destinations
-   </a>
-   <a class="block px-6 py-4 border-b border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#availability" role="menuitem" tabindex="0">
-    Availability
-   </a>
-   <a class="block px-6 py-4 hover:bg-indigo-100 hover:text-indigo-900 font-semibold" href="#booking" role="menuitem" tabindex="0">
-    Book/Reservation
-   </a>
-  </div>
- </nav>
- <script>
-  const btn = document.getElementById('menu-btn');
-   const menu = document.getElementById('mobile-menu');
-   btn.addEventListener('click', () => {
-     const expanded = btn.getAttribute('aria-expanded') === 'true' || false;
-     btn.setAttribute('aria-expanded', !expanded);
-     menu.classList.toggle('hidden');
-   });
- </script>
+  </section>
+  <!-- About Us Section -->
+  <section aria-label="About Us section" class="bg-white py-20" id="about">
+   <div class="container space-y-12">
+    <h2 class="text-4xl font-extrabold text-indigo-700 text-center">
+     About Us
+    </h2>
+    <div class="max-w-4xl mx-auto space-y-10 text-gray-800 text-lg leading-relaxed">
+     <article class="space-y-4">
+      <h3 class="text-2xl font-semibold text-indigo-600 border-b border-indigo-300 pb-2">
+       Mission Statement
+      </h3>
+      <p>
+       To be the premier online gateway showcasing the natural wonders and cultural richness of Lobo, Batangas, inspiring to discover its unique charm and contributing to the sustainable growth of the local community.
+      </p>
+     </article>
+     <article class="space-y-4">
+      <h3 class="text-2xl font-semibold text-indigo-600 border-b border-indigo-300 pb-2">
+       Our Story / Background
+      </h3>
+      <p>
+       We believe that travel is more than just reaching a destination– it’s also about experiencing the heart and soul of a place. Founded with a deep passion for exploration, our mission is to showcase the beauty, culture, and unique attraction of Lobo, Batangas, connecting travelers with unforgettable experiences. From pristine beaches to historic landmarks and local traditions, we curate every detail to ensure visitors feel the magic of the municipality.
+      </p>
+      <p>
+       Our website was created by a group of local experts– travel enthusiasts, historians, and hospitality professionals– who have spent years finding hidden treasures and designing authentic adventures. With our personal knowledge and strong community ties, we offer insightful advice, insider secrets, and top recommendations for experiencing Lobo, Batangas at its finest.
+      </p>
+      <p>
+       Our dedication to this place is rooted in our shared love for its landscapes, heritage, and people. More than just a guide, the website celebrates the vibrant spirit of the municipality, acting as a link between visitors and locals to create meaningful travel moments.
+      </p>
+      <p>
+       We are the community of Lobo, and this website is our invitation to you. It’s more than just a travel guide; it’s a window into our hearts and a testament to the beauty we cherish. We believe in responsible tourism that not only delights visitors but also empowers our community and preserves our natural heritage for generations to come. This isn’t just our expertise; it’s our way of life, shared with you.
+      </p>
+     </article>
+     <article class="space-y-4">
+      <h3 class="text-2xl font-semibold text-indigo-600 border-b border-indigo-300 pb-2">
+       Our Values
+      </h3>
+      <ul class="list-disc list-inside space-y-2 text-indigo-700 font-semibold text-lg">
+       <li>
+        Authenticity
+       </li>
+       <li>
+        Accessibility
+       </li>
+       <li>
+        Reliability
+       </li>
+       <li>
+        Sustainability
+       </li>
+       <li>
+        Inspiration &amp; Discovery
+       </li>
+       <li>
+        Best deals
+       </li>
+      </ul>
+     </article>
+     <article>
+      <h3 class="text-2xl font-semibold text-indigo-600 border-b border-indigo-300 pb-2 mb-8 text-center">
+       Meet the Team
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+       <!-- Team Member -->
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Mikaela Ashley De Castro, a young woman with warm smile, representing website creator" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="/ABOUT US (Meet the team)/MIKAELA ASHLEY DE CASTRO.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Mikaela Ashley De Castro
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         Mikaela created this website as a means of introducing other tourists to Lobo's unspoiled luxury and authentic adventures.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Mariel Angela Mercado, a woman with glasses and thoughtful expression, representing historical researcher" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/MARIEL ANGELA MERCADO.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Mariel Angela Mercado
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         Mariel's research is motivated by her curiosity about Lobo's past, and she shares interesting historical details on this platform to aid visitors in comprehending and appreciating the town's history.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Kyla Bellen Palicpic, an adventurous woman with outdoor gear, representing nature and adventure expert" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/KYLA JOY D. REANO.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Kyla Bellen Palicpic
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         For those seeking adventure and appreciating the beauty of nature, Kyla P. personally selects the most thrilling outdoor experiences thanks to her excellent sense of off-the-beaten-path routes and breathtaking scenery.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Charlotte Mistal, a woman with warm smile, representing hospitality expert" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/CHARLOTTE MISTAL.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Charlotte Mistal
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         With her extensive background in Lobo's hospitality sector, Charlotte goes above and beyond to make visitors feel at home while offering excellent suggestions for places to stay and dine locally.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Jessica Tripole, a woman with nature background, representing sustainability advocate" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/JESSICA TRIPOLE.jpeg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Jessica Tripole
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         Jessica, who is committed to preserving Lobo's natural beauty for future generations, advocates for responsible tourism and sustainable travel.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Kyla Reano, a woman smiling, representing foodie and culinary guide" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/KYLA JOY D. REANO.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Kyla Reano
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         Kyla R. is an avid foodie. ensures that visitors enjoy the genuine flavours and distinctive dishes of Lobo by guiding them through its magnificent culinary environment.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Trixie Ann Dimaculangan, a woman with camera, representing storyteller and event narrator" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/DIMACULANGAN, TRIXIE ANN E.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Trixie Ann Dimaculangan
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         People can sense the spirit of Lobo thanks to Trixie's viewpoint and captivating narration, which skilfully captures the town's breathtaking scenery and vibrant events.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Christhel Faith Magbojos, a woman with community background, representing cultural exchange advocate" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/CHRISTHEL FAITH MAGBOJOS.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Christhel Faith Magbojos
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         Christhel wants to close the gap between Lobo residents and visitors by making sure that travel helps the community and promotes deep cultural exchanges.
+        </p>
+       </div>
+       <div class="bg-indigo-50 rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-indigo-400 transition-shadow">
+        <img alt="Portrait of Nicole Ann Maqquidang, a woman with laptop, representing website operations expert" class="rounded-full w-28 h-28 object-cover mb-4 ring-4 ring-indigo-300" height="120" loading="lazy" src="ABOUT US (Meet the team)/Nicole Ann Maquiddang.jpg" width="120"/>
+        <h4 class="font-semibold text-indigo-700 mb-1 text-lg">
+         Nicole Ann Maqquidang
+        </h4>
+        <p class="text-indigo-600 text-sm">
+         Nicole's expertise keeps the website operating efficiently, guaranteeing easy access and navigation for all adventurers.
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="bg-indigo-100 rounded-lg p-8 text-center text-indigo-700 font-semibold text-lg shadow-md">
+      <p>
+       We’re here to make your Lobo adventure unforgettable! Whether you need travel advice, insider recommendations, or simply want to share your excitement, feel free to reach out– we’re always here to connect!
+      </p>
+      <p class="mt-4">
+       Email:
+       <a class="underline hover:text-indigo-900" href="mailto:lobobatangas@gmail.com">
+        lobobatangas@gmail.com
+       </a>
+      </p>
+      <p>
+       Contact Number:
+       <a class="underline hover:text-indigo-900" href="tel:+639956184896">
+        09956184896
+       </a>
+      </p>
+      <p>
+       Website:
+       <a class="underline hover:text-indigo-900" href="https://lobobatangas.com" rel="noopener" target="_blank">
+        lobobatangas.com
+       </a>
+      </p>
+     </article>
+    </div>
+   </div>
+  </section>
+  <!-- Tourist Destinations Section -->
+  <section aria-label="Tourist Destinations section" class="bg-indigo-50 py-20" id="destinations">
+   <div class="container">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-16 text-center">
+     List of Tourist Destinations
+    </h2>
+    <div class="space-y-20">
+     <!-- Destination Card Template -->
+     <!-- Malabrigo Lighthouse -->
+     <article class="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Historic Malabrigo Point Lighthouse, an ancient tower completed in 1896, standing tall on rocky coast with ocean backdrop" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7783.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Malabrigo Lighthouse
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        The Malabrigo Point Lighthouse, also known as Faro de Punta Malabrigo, is one of the oldest working lighthouses in the Philippines and Southeast Asia. This ancient tower, completed and initially illuminated in 1896 during Spanish colonial rule, continues to guide ships to this day. Aside from its nautical role, the lighthouse has become a prominent cultural representation and a destination for tourists seeking history, tradition, and ocean views.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Explore the historic lighthouse and learn about its maritime heritage.
+         </li>
+         <li>
+          Enjoy panoramic views of the Verde Island Passage and coastline.
+         </li>
+         <li>
+          Photography and sunset watching.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Malabrigo Lighthouse" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Malabrigo%20Lighthouse%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Malabrigo Beach -->
+     <article class="flex flex-col lg:flex-row-reverse items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Malabrigo Beach with smooth rounded pebbles shoreline and crystal-clear water under sunny sky" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7788.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Malabrigo Beach
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Malabrigo Beach, hidden in the quiet town of Lobo, Batangas, is gaining popularity due to its unique appeal. Unlike the area's typical sandy beach, this beach has a shoreline of smooth and rounded pebbles that form a distinct and visually appealing coastline. It provides a respite for visitors looking for something different than the typical beach vacation, with crystal-clear water and a serene atmosphere.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Relax and stroll along the unique pebble shoreline.
+         </li>
+         <li>
+          Swimming and sunbathing in a peaceful environment.
+         </li>
+         <li>
+          Photography of the distinctive beach landscape.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Malabrigo Beach" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Malabrigo%20Beach%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Olo-Olo Beach -->
+     <article class="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Serene Olo-Olo Beach with calm sea, white sand, and lush greenery in Lobo Batangas" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7786.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Olo-Olo Beach
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Olo-Olo Beach, a hidden treasure in Lobo, Batangas, is a serene hideaway for people seeking quiet, nature, and a slower pace of life. The beach, known for its pure seas and gorgeous shoreline, invites visitors to unwind and appreciate the simple pleasures life has to offer. One of its crown jewels is Lawas Seaside Resort, which has a gorgeous man-made lagoon with soaring views of the beach. Whether for swimming, fishing, or eating fresh locally caught seafood, Olo-Olo offers a tranquil retreat for getting away from it all.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Swimming and fishing in calm waters.
+         </li>
+         <li>
+          Relaxing at Lawas Seaside Resort and lagoon.
+         </li>
+         <li>
+          Enjoying fresh seafood at local eateries.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Olo-Olo Beach" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Olo-Olo%20Beach%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Submarine Garden Beach Resort -->
+     <article class="flex flex-col lg:flex-row-reverse items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Submarine Garden Beach Resort shoreline with clear water showing vibrant coral reefs and marine life" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7787.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Submarine Garden Beach Resort
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Just a few steps from the shore, the Submarine Garden Beach Resort offers a rare opportunity to experience vibrant marine life—no boat required. This thriving underwater haven is easily accessible, making it perfect for snorkeling enthusiasts and curious travelers alike. Teeming with colorful coral reefs and diverse marine species, it’s a must-see for anyone looking to explore the natural wonders beneath the waves, right from the shoreline.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Snorkeling and swimming in vibrant coral reefs.
+         </li>
+         <li>
+          Relaxing on the beach and enjoying marine views.
+         </li>
+         <li>
+          Exploring marine biodiversity close to shore.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Submarine Garden Beach Resort" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Submarine%20Garden%20Beach%20Resort%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Mt. Naguiling -->
+     <article class="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Scenic view of Mt. Naguiling peak with lush green forest and mountain range under blue sky" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7789.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Mt. Naguiling
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Mt. Naguiling, the top of the Lobo-San Juan Mountain Range, stands 1,007 meters above sea level and is a strong contender for Batangas' highest mountain. It is located between Mt. Daguldol and the freshly risen peaks of Bangkalan and Patong, and it has a hard yet rewarding track that is excellent for a day trip. Once known to be a great mountain home of rich timbers and rainforest, Mt. Naguiling became famed for its chain of surrounding peaks and breathtaking routes, making it a hiker's favourite destination for adventure and beautiful mountain views.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Hiking and trekking challenging mountain trails.
+         </li>
+         <li>
+          Enjoying panoramic views of Batangas coastline.
+         </li>
+         <li>
+          Exploring rainforest and mountain biodiversity.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Mt. Naguiling" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Mt.%20Naguiling%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Ulopong Falls -->
+     <article class="flex flex-col lg:flex-row-reverse items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Ulopong Falls cascading water surrounded by lush tropical forest and natural rock pools" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7790.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Ulopong Falls
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Located in Brgy. Sawang, Ulopong Falls is a weekend retreat that soothes the senses and uplifts the spirit. At barely more than 12 feet high, this quaint cascade is an impressive display of nature's subtle strength. The Lobo River's constant flow creates natural rock pools and swimmable lagoons bordered by harsh, stone-like edges. Ulopong Falls is a local favourite among tourists seeking a quiet haven in nature.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Swimming and relaxing in natural rock pools.
+         </li>
+         <li>
+          Picnicking and nature photography.
+         </li>
+         <li>
+          Exploring surrounding forest trails.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Ulopong Falls" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Ulopong%20Falls%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Nalayag Monolith -->
+     <article class="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Nalayag Monolith, a towering natural rock spire with panoramic views of Batangas coastline and hills" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7793.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Nalayag Monolith
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Mt. Nalayag Monolith in Barangay Balibago, Lobo, is 552 meters above sea level and is a stunning natural rock formation that has been a popular destination for hikers and adventure seekers since it opened to the public in 2017. Famous for its stunning rock spire and sweeping vistas of Batangas coastline and surrounding hills, this one-of-a-kind destination offers both a scenic hike and a terrifying photo opportunity.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Hiking to the rock spire and enjoying panoramic views.
+         </li>
+         <li>
+          Photography and adventure climbing.
+         </li>
+         <li>
+          Exploring nearby trails and natural surroundings.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Nalayag Monolith" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Nalayag%20Monolith%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Malagundi Point -->
+     <article class="flex flex-col lg:flex-row-reverse items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Malagundi Point with coral rock formations rising from sea and land, pristine beach and horizon view" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7791.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Malagundi Point
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Malagundi Point, located in Sitio Punas on the Balibago coast, is a secluded seaside treasure where the art of nature prevails. The beach itself is serene and tidy, lined by breathtaking coral rock formations that appear to be rising freely from land and sea. Such distinct stratified reefs unfold as a theatrical landscape—seen from the road and extending to the horizon—providing a resplendent scene that feeds the imagination of each traveller driving through Lobo's wild.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Beachcombing and exploring coral rock formations.
+         </li>
+         <li>
+          Photography of unique natural landscapes.
+         </li>
+         <li>
+          Enjoying peaceful seaside atmosphere.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Malagundi Point" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Malagundi%20Point%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Kastilyong Bato -->
+     <article class="flex flex-col lg:flex-row items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Kastilyong Bato natural rock formations resembling castle walls surrounded by greenery in Barangay Olo-olo" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0c2848d5-fb81-43ee-d030-d57f41f0f0a0.jpg" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Kastilyong Bato
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        Kastilyong Bato (meaning "Stone Castle") is a secret natural wonder in Barangay Olo-olo, Lobo, Batangas, Philippines. It features unique rock formations that appear to be castle walls.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Exploring and photographing unique rock formations.
+         </li>
+         <li>
+          Hiking and nature walks in surrounding areas.
+         </li>
+         <li>
+          Learning about local folklore and natural history.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Kastilyong Bato" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Kastilyong%20Bato%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+     <!-- Lagadlarin Mangrove Forest -->
+     <article class="flex flex-col lg:flex-row-reverse items-center gap-12 bg-white rounded-3xl shadow-xl p-8 hover:shadow-indigo-400 transition-shadow">
+      <img alt="Lagadlarin Mangrove Forest with bamboo boardwalk and lush mangrove trees over calm water" class="rounded-3xl w-full lg:w-1/2 h-72 object-cover shadow-lg" height="450" loading="lazy" src="Tourist Destinations/IMG_7794.JPG" width="600"/>
+      <div class="lg:w-1/2 space-y-6">
+       <h3 class="text-3xl font-bold text-indigo-700">
+        Lagadlarin Mangrove Forest
+       </h3>
+       <p class="text-gray-700 leading-relaxed">
+        The Lagadlarin Mangrove Forest in Batangas, Lobo, is a serene ecotourism paradise where one can hike on a picturesque bamboo boardwalk amidst mangrove vegetation and marine life. The 1-kilometer boardwalk provides a tranquil retreat to nature, leading to a quaint treehouse observation deck with panoramic views of the forest and ocean.
+       </p>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Things to Do:
+        </h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+         <li>
+          Walking the bamboo boardwalk through mangrove forest.
+         </li>
+         <li>
+          Birdwatching and observing marine life.
+         </li>
+         <li>
+          Enjoying panoramic views from the treehouse observation deck.
+         </li>
+        </ul>
+       </div>
+       <div>
+        <h4 class="font-semibold text-indigo-600 mb-2">
+         Location:
+        </h4>
+        <iframe aria-label="Map location of Lagadlarin Mangrove Forest" class="w-full h-48 rounded-xl border-0 shadow-md" loading="lazy" src="https://maps.google.com/maps?q=Lagadlarin%20Mangrove%20Forest%20Batangas&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" tabindex="0">
+        </iframe>
+       </div>
+      </div>
+     </article>
+    </div>
+   </div>
+  </section>
   <!-- Availability Section -->
-  <section class="bg-green-50 py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="availability">
-   <h2 class="text-4xl font-bold text-green-800 mb-12 text-center">
-    Availability - Rooms, Utilities &amp; More
-   </h2>
-   <!-- Accommodation Listings -->
-   <div class="space-y-16">
-    <!-- Punta Verde Resort Rooms -->
-    <div>
-     <h3 class="text-3xl font-semibold text-green-700 mb-8 border-b border-green-300 pb-2">
-      Punta Verde Resort - Room Options
-     </h3>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Superior King Cottage (Sampaguita) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior King Cottage Sampaguita with balcony overlooking lush greenery and sea view" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT 1st pic.png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior King Cottage (Sampaguita)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱6,000.00 per night
-       </p>
-       <p class="mb-2">
-        A hut for two, nestled in greenery, with a balcony that gives a lovely view of the sea. Perfect for couples and newlyweds seeking privacy.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 Adults, 1 Child (3 years old and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Superior King Room -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior King Room at Lakanipao Lodge with large balcony overlooking sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT Superior King room(1).png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior King Room
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱6,000.00 per night
-       </p>
-       <p class="mb-2">
-        Located at the Spanish-inspired Lakanipao Lodge with a huge balcony offering breathtaking sea views. Ideal for 2-3 guests.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        1
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Superior Twin Room -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior Twin Room at Lakanipao Lodge with two single beds and balcony overlooking sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT Superior Twin room.png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior Twin Room
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱6,000.00 per night
-       </p>
-       <p class="mb-2">
-        Located at the Spanish-inspired Lakanipao Lodge with a huge balcony offering breathtaking sea views. Ideal for 2-3 guests.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        1
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Superior Family Room (Narra) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior Family Room Narra Hut with balcony overlooking trees and sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT Superior Duplex Cottage (NARRA).png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior Family Room (Narra)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱8,500.00 per night
-       </p>
-       <p class="mb-2">
-        Two rooms at the Narra Hut, perfect for small groups and families. Nestled among trees with sea views and veranda.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Superior Dormitory Room -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior Dormitory Room with four double-deck beds and balcony overlooking sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT Superior Dormitory room.png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior Dormitory Room
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱12,000.00 per night (Mon-Thurs only)
-       </p>
-       <p class="mb-2">
-        Located at Lakanipao Lodge with a huge balcony offering breathtaking sea views. Ideal for 8-9 guests.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        8 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        1
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Superior Seaside Cottage (Talisay) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior Seaside Cottage Talisay Lodge near the sea with dining and socializing area" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT Superior King room.png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior Seaside Cottage (Talisay)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱14,500.00 per night
-       </p>
-       <p class="mb-2">
-        Situated nearest the sea, ideal for those who love ocean breeze and sound of waves. Fully air-conditioned with en suite toilet and bath.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        8 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Private Veranda, Air Conditioning, Beach Access
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Complimentary Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Cottage (Rosal) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Cottage Rosal with balcony overlooking greenery and sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="PUNTA VERDE RESORT / PUNTA VERDE RESORT Deluxe Family Villa.png" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Cottage (Rosal)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱7,800.00 per night
-       </p>
-       <p class="mb-2">
-        A hut for two nestled in greenery with a balcony giving a lovely sea view. Perfect for couples and newlyweds.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        2 Beds
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Free Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Cottage (Ilang-Ilang) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Cottage Ilang-Ilang family room with balcony overlooking greenery and sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/e4143c82-769c-4058-c576-bf7cb4b69ab5.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Cottage (Ilang-Ilang)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱9,500.00 per night
-       </p>
-       <p class="mb-2">
-        Deluxe family room for four nestled in greenery with a balcony giving a lovely sea view.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        1
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Cottage (Kamia) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Cottage Kamia family room with balcony overlooking greenery and sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7c0fac8c-20eb-450b-9d4f-459e5f0033fe.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Cottage (Kamia)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱9,500.00 per night
-       </p>
-       <p class="mb-2">
-        Deluxe family room for four nestled in greenery with a balcony giving a lovely sea view.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        1
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Free Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Family Room (Mulawin Villa) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Family Room Mulawin Villa with veranda and sea view" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f36ed267-3707-4da3-e0e5-30358c5615a5.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Family Room (Mulawin Villa)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱12,500.00 per night
-       </p>
-       <p class="mb-2">
-        One of two rooms at Mulawin Villa, spacious with verandas for socializing. Luxurious bathrooms comparable to five-star hotels.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        6 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Deluxe Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Family Room (Balayong Villa) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Family Room Balayong Villa with veranda and sea view" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ea9fd9c2-46b3-4792-68ba-be5b4870d71e.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Family Room (Balayong Villa)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱12,500.00 per night
-       </p>
-       <p class="mb-2">
-        One of two rooms at Balayong Villa, spacious with verandas for socializing. Luxurious bathrooms comparable to five-star hotels.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        6 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Deluxe Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Family Room (Ligasong Villa) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Family Room Ligasong Villa with veranda and sea view" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8ba4c038-1928-4038-e854-2a7c65bc816a.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Family Room (Ligasong Villa)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱12,500.00 per night
-       </p>
-       <p class="mb-2">
-        One of two rooms at Ligasong Villa, spacious with verandas for socializing. Luxurious bathrooms comparable to five-star hotels.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        6 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Deluxe Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Premium Oceanview Villa (Dumayaka) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Oceanview Villa Dumayaka with balcony overlooking sea and greenery" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a31b321e-9176-4436-123c-c3e7897010a0.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Oceanview Villa (Dumayaka)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱8,500.00 per night (Mon-Thurs), ₱10,000.00 per night (Fri-Sun)
-       </p>
-       <p class="mb-2">
-        Villa nestled in greenery with balcony offering lovely sea views. Ideal for couples or small families.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        End suite toilet and bath, Air Conditioning
-       </p>
-      </article>
-      <!-- Premium Cliffside Room (Dao) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Cliffside Room Dao at Ipil Lodge with veranda overlooking sea and mountain" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/91156a09-2e22-4062-bb37-90403ff253ea.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Cliffside Room (Dao)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱11,500.00 per night
-       </p>
-       <p class="mb-2">
-        Situated near cliff edge and infinity pool, with veranda offering unobstructed sea views. Fully air-conditioned.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Private Veranda, Air Conditioning, Beach Access
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Complimentary Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Premium Cliffside Room (Ipil) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Cliffside Room Ipil at Ipil Lodge with veranda overlooking sea and mountain" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/932b3268-4551-4e3d-6cf0-7c4798bdc054.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Cliffside Room (Ipil)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱11,500.00 per night
-       </p>
-       <p class="mb-2">
-        Situated near cliff edge and infinity pool, with veranda offering unobstructed sea views. Fully air-conditioned.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Private Veranda, Air Conditioning, Beach Access
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Complimentary Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Premium Cliffside Villa (Jasmine) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Cliffside Villa Jasmine with veranda overlooking sea and mountain" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7036683e-634b-40e8-3d99-ff25efddeb81.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Cliffside Villa (Jasmine)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱11,500.00 per night (Rate varies by day)
-       </p>
-       <p class="mb-2">
-        Near cliff edge and infinity pool, ideal for couples or small families. Fully air-conditioned with veranda and sea views.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Private Veranda, Air Conditioning, Beach Access
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Complimentary Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Premium Cliffside Villa (Dahlia) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Cliffside Villa Dahlia with veranda offering 270-degree sea views" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/54611459-68ac-4527-17b5-9916586c01b8.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Cliffside Villa (Dahlia)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱12,500.00 per night (Rate varies by day)
-       </p>
-       <p class="mb-2">
-        Near cliff edge and infinity pool, with veranda offering unobstructed 270-degree sea views. Fully air-conditioned.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Private Veranda, Air Conditioning, Beach Access
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Complimentary Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Premium Seaside Villa (Acacia) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Seaside Villa Acacia with patio opening directly to the sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0e04ff7d-09d0-420c-fe7e-011f61464230.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Seaside Villa (Acacia)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱14,500.00 per night
-       </p>
-       <p class="mb-2">
-        Situated nearest the sea, with patio opening directly to the sea. Ideal for families or groups. Fully air-conditioned with en suite toilet and bath.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        6 Adults
-       </p>
-      </article>
-      <!-- Premium Duplex Villa (Dao) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Duplex Villa Dao at Ipil Lodge with two identical rooms and veranda sea views" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/881082a1-da4d-4011-1a1f-2456afd59a78.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Duplex Villa (Dao)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱23,000.00 per night
-       </p>
-       <p class="mb-2">
-        Two identical rooms, perfect for small groups and families. Each room has veranda with sea views. Fully air-conditioned.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Premium Duplex Villa (Ipil) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Premium Duplex Villa Ipil at Ipil Lodge with two identical rooms and veranda sea views" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/41b994fc-2b24-47f6-8566-2872082a5719.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Premium Duplex Villa (Ipil)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱23,000.00 per night
-       </p>
-       <p class="mb-2">
-        Two identical rooms, perfect for small groups and families. Each room has veranda with sea views. Fully air-conditioned.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Superior Duplex Cottage (Narra) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Superior Duplex Cottage Narra with two identical rooms and veranda sea views" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/77e50c5c-d715-42f7-7258-d1a26532de7c.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Superior Duplex Cottage (Narra)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱17,000.00 per night
-       </p>
-       <p class="mb-2">
-        Two identical rooms, perfect for small groups and families. Each room has veranda with sea views. Fully air-conditioned.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        0
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- Deluxe Family Villa -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Family Villa with two adjoined rooms and verandas overlooking sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/63eb4387-3aa5-4b8a-2542-14c40bda9b10.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Family Villa
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱25,000.00 per night
-       </p>
-       <p class="mb-2">
-        Two adjoined rooms, spacious for up to 12 persons, with verandas for socializing. Bathrooms comparable to five-star hotels.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        12 Adults, 2 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Deluxe Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-      <!-- The Lakanipao Lodge -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="The Lakanipao Lodge with multiple rooms and large balcony overlooking sea" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2ed2ced3-dc48-4047-de5c-ab1f29d4019a.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        The Lakanipao Lodge
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱27,500.00 per night
-       </p>
-       <p class="mb-2">
-        All rooms at the Lakanipao Lodge: Superior King Room, Superior Queen Room, Superior Twin Room, and Dormitory Room.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Ideal Capacity:
-        </strong>
-        14 Adults, 4 Children (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Extra Bed Capacity:
-        </strong>
-        4 (1 in each room)
-       </p>
-       <p class="mb-2">
-        <strong>
-         In-Room Amenities:
-        </strong>
-        Toilet and Bath (with heater), Powder Area, Air Conditioning
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        FREE Breakfast, Use of all resort facilities including infinity pool, On-site museum visit
-       </p>
-      </article>
-     </div>
-    </div>
-
-
-
-    <!-- Acre Resort and Spa Rooms -->
-    <div>
-     <h3 class="text-3xl font-semibold text-green-700 mb-8 border-b border-green-300 pb-2">
-      Acre Resort and Spa - Room Options
-     </h3>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Cabana -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Cabana daytime retreat with beach access and outdoor seating for up to 6 guests" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="ACRE RESORT AND SPA/cabana.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Cabana
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱4,200.00 per night
-       </p>
-       <p class="mb-2">
-        Perfect daytime retreat for friends and families of up to 6 guests. Offers privacy, comfort, and exclusive resort access.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        6 Adults
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Daily housekeeping, direct beach access, free wifi, public grill, public shower, sofa, swimming pool
-       </p>
-      </article>
-      <!-- Villa Queen -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Villa Queen with queen-size bed, private bathroom, and ocean views" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="ACRE RESORT AND SPA/villa queen.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Villa Queen
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱8,400.00 per night
-       </p>
-       <p class="mb-2">
-        Intimate retreat with queen-size bed, private bathroom, and stunning ocean views.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Air-conditioning, bath towels, daily housekeeping, electric kettle, free wifi, hair dryer, refrigerator, safety deposit box, shower, smart TV, toiletries
-       </p>
-      </article>
-      <!-- Villa Bunk -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Villa Bunk cozy room with bunk bed for 2 guests" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="ACRE RESORT AND SPA/villa bunk.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Villa Bunk
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱8,400.00 per night
-       </p>
-       <p class="mb-2">
-        Cozy room with bunk bed for 2 guests. Ideal for groups of friends. Includes free kayaking and paddleboard activities.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Air-conditioning, bath towels, daily housekeeping, electric kettle, free wifi, hair dryer, refrigerator, safety deposit box, shower, smart TV, toiletries
-       </p>
-      </article>
-      <!-- Family Suite -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Family Suite with 3 bedrooms, ensuite bathrooms, kitchenette, and spacious living and dining areas" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="ACRE RESORT AND SPA/family suite.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Family Suite
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱28,350.00 per night
-       </p>
-       <p class="mb-2">
-        Perfect for large families and friends. 3 bedrooms with ensuite bathrooms and kitchenette. Spacious living and dining areas.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        8 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Air-conditioning, bath towels, daily housekeeping, electric kettle, free wifi, hair dryer, refrigerator, microwave, safety deposit box, shower, smart TV, toiletries
-       </p>
-      </article>
-      <!-- Grand Villa -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Grand Villa with king-size bed, two sofa beds, private bathroom, and fully equipped kitchen" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="ACRE RESORT AND SPA/grand villa.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Grand Villa
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱23,100.00 per night
-       </p>
-       <p class="mb-2">
-        Luxurious living with king-size bed and two sofa beds. Includes private bathroom and fully equipped kitchen. Serene atmosphere with natural light and stunning views.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        8 Adults, 1 Child (3 years and below)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Air-conditioning, bath towels, daily housekeeping, electric kettle, free wifi, hair dryer, refrigerator, microwave, safety deposit box, shower, smart TV, toiletries
-       </p>
-      </article>
-     </div>
-    </div>
-    <!-- Cerca Parola Beach Resort Rooms -->
-    <div>
-     <h3 class="text-3xl font-semibold text-green-700 mb-8 border-b border-green-300 pb-2">
-      Cerca Parola Beach Resort - Room Options
-     </h3>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Double Room -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Double Room at Cerca Parola Beach Resort with electric kettle, air conditioning, terrace and bar" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CERCA PAROLA BEACH RESORT/DOUBLE ROOM.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Double Room
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱3,488.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Electric kettle, air conditioning, terrace, bar
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Swimming pool, non-smoking rooms, free parking, free WiFi, family rooms
-       </p>
-      </article>
-      <!-- Deluxe Double or Twin Room with Pool View -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Double or Twin Room with pool view at Cerca Parola Beach Resort" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CERCA PAROLA BEACH RESORT/DELUXE DOUBLE OR TWIN ROOM WITH POOL VIEW.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Double or Twin Room with Pool View
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱4,909.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Electric kettle, air conditioning, terrace, bar
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Swimming pool, non-smoking rooms, free parking, free WiFi, family rooms
-       </p>
-      </article>
-      <!-- Deluxe Queen Room with Two Queen Beds -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Queen Room with two queen beds at Cerca Parola Beach Resort" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CERCA PAROLA BEACH RESORT/DELUXE QUEEN ROOM WITH TWO QUEEN BEDS.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Queen Room with Two Queen Beds
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱5,168.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        4 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Electric kettle, air conditioning, terrace, bar
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Swimming pool, non-smoking rooms, free parking, free WiFi, family rooms
-       </p>
-      </article>
-      <!-- Deluxe Family Room -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Family Room at Cerca Parola Beach Resort with bar and patio" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CERCA PAROLA BEACH RESORT/DELUXE FAMILY ROOM.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Family Room
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱5,168.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        10 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Electric kettle, air conditioning, bar, patio
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Swimming pool, non-smoking rooms, free parking, free WiFi, family rooms
-       </p>
-      </article>
-     </div>
-    </div>
-    <!-- Casa Talia Beach House Rooms -->
-    <div>
-     <h3 class="text-3xl font-semibold text-green-700 mb-8 border-b border-green-300 pb-2">
-      Casa Talia Beach House - Room Options
-     </h3>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Deluxe Double Room (3 Pax) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Double Room with sea view at Casa Talia Beach House for 3 persons" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CASA TALIA BEACH HOUSE/Deluxe Double Room.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Double Room (3 Pax)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱1,710.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        3 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Free toiletries, bidet, toilet, bath or shower, towels, linen, tile/marble floor, clothes rack, toilet paper
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Non-smoking rooms, beachfront, free parking, family rooms, private beach area
-       </p>
-      </article>
-      <!-- Deluxe Double Room (1 Person) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Double Room with sea view at Casa Talia Beach House for 1 person" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CASA TALIA BEACH HOUSE/DELUXE.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Double Room (1 Person)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱1,539.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Free toiletries, bidet, toilet, bath or shower, towels, linen, tile/marble floor, clothes rack, toilet paper
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Non-smoking rooms, beachfront, free parking, family rooms, private beach area
-       </p>
-      </article>
-      <!-- Deluxe Double Room with Sea View (3 Pax) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Double Room with sea view at Casa Talia Beach House for 3 persons" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CASA TALIA BEACH HOUSE/Deluxe Double Room with Sea View.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Double Room with Sea View (3 Pax)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱2,250.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        3 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Free toiletries, bidet, toilet, bath or shower, towels, linen, tile/marble floor, clothes rack, toilet paper
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Non-smoking rooms, beachfront, free parking, family rooms, private beach area
-       </p>
-      </article>
-      <!-- Deluxe Double Room with Sea View (2 Pax) -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Deluxe Double Room with sea view at Casa Talia Beach House for 2 persons" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CASA TALIA BEACH HOUSE/Deluxe Double Room with Sea View.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Deluxe Double Room with Sea View (2 Pax)
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱2,250.00 per night
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        2 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Free toiletries, bidet, toilet, bath or shower, towels, linen, tile/marble floor, clothes rack, toilet paper
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Non-smoking rooms, beachfront, free parking, family rooms, private beach area
-       </p>
-      </article>
-      <!-- Family Suite -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Family Suite at Casa Talia Beach House with sea view and multiple beds" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="CASA TALIA BEACH HOUSE/Family Suite.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Family Suite
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱5,265.00 - ₱8,100.00 per night (varies by pax)
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        9 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Free toiletries, bidet, toilet, bath or shower, towels, linen, tile/marble floor, clothes rack, toilet paper
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Non-smoking rooms, beachfront, free parking, family rooms, private beach area
-       </p>
-      </article>
-     </div>
-    </div>
-    <!-- D Villa Nueva's Beach House -->
-    <div>
-     <h3 class="text-3xl font-semibold text-green-700 mb-8 border-b border-green-300 pb-2">
-      D Villa Nueva's Beach House - Room Options
-     </h3>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Villa - Beach Front -->
-      <article class="bg-white rounded-lg shadow p-6 flex flex-col">
-       <img alt="Villa Beach Front at D Villa Nueva's Beach House with private beach area and sea view" class="rounded mb-4 object-cover h-48 w-full" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1220a328-aad9-4beb-8f65-8e3f8bd5aae7.jpg" width="600"/>
-       <h4 class="text-xl font-bold text-green-800 mb-2">
-        Villa - Beach Front
-       </h4>
-       <p class="text-yellow-700 font-semibold mb-2">
-        ₱24,180.00 per night
-       </p>
-       <p class="mb-2">
-        Two bedrooms and three bathrooms including living room. Balcony and private bathroom in each room. Infinity pool and lush garden.
-       </p>
-       <p class="mb-2">
-        <strong>
-         Capacity:
-        </strong>
-        16 persons
-       </p>
-       <p class="mb-2">
-        <strong>
-         Amenities:
-        </strong>
-        Free toiletries, kitchen, bidet, streaming service, toilet, sofa, fireplace, towels, linen, cleaning products, desk, seating area, private entrance, TV, refrigerator, satellite channels, tea/coffee maker, iron, microwave, hairdryer, kitchenware, kitchenette, electric kettle, outdoor furniture, outdoor dining area, wardrobe, toaster
-       </p>
-       <p class="mb-2">
-        <strong>
-         Inclusions:
-        </strong>
-        Outdoor swimming pool, non-smoking rooms, free parking, free WiFi, beachfront, family rooms, private beach area
-       </p>
-      </article>
-     </div>
-    </div>
+  <section aria-label="Availability section with rooms and utilities" class="bg-white py-20" id="availability">
+   <div class="container">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-16 text-center">
+     Availability (Rooms, Utilities, etc.)
+    </h2>
+    <article class="space-y-12">
+     <!-- Punta Verde Resort -->
+     <section class="bg-indigo-50 rounded-3xl shadow-lg p-10">
+      <h3 class="text-3xl font-bold text-indigo-700 mb-6 border-b border-indigo-300 pb-3">
+       PUNTA VERDE RESORT
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+       <div class="space-y-2 text-indigo-900 font-semibold">
+        <p>
+         <span class="font-bold">
+          Address:
+         </span>
+         Sitio Punas, Lobo, Batangas
+        </p>
+        <p>
+         <span class="font-bold">
+          Contact:
+         </span>
+         <a class="text-indigo-700 hover:underline" href="tel:+639151112041">
+          0915-111-2041
+         </a>
+        </p>
+        <p>
+         <span class="font-bold">
+          Email:
+         </span>
+         <a class="text-indigo-700 hover:underline" href="mailto:puntaverderesorts@gmail.com">
+          puntaverderesorts@gmail.com
+         </a>
+        </p>
+        <p>
+         <span class="font-bold">
+          Social Media:
+         </span>
+         <a class="text-indigo-700 hover:underline" href="https://www.instagram.com/puntaverdeph/" rel="noopener" target="_blank">
+          Instagram
+         </a>
+         ,
+         <a class="text-indigo-700 hover:underline" href="https://facebook.com/@PuntaVerdeResortBatangas/" rel="noopener" target="_blank">
+          Facebook
+         </a>
+        </p>
+        <p>
+         <span class="font-bold">
+          Website:
+         </span>
+         <a class="text-indigo-700 hover:underline" href="https://www.puntaverde.ph" rel="noopener" target="_blank">
+          puntaverde.ph
+         </a>
+        </p>
+       </div>
+       <img alt="Punta Verde Resort scenic view with tropical greenery and ocean" class="rounded-2xl shadow-lg object-cover w-full h-48 md:h-auto" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3831892f-ad71-48df-9829-d8eb0c8ab930.jpg" width="500"/>
+      </div>
+      <h4 class="text-2xl font-semibold text-indigo-700 mb-6 border-b border-indigo-300 pb-2">
+       Room Options
+      </h4>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-h-[700px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-indigo-400 scrollbar-track-indigo-200">
+       <!-- Room Card Template -->
+       <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-indigo-400 transition-shadow border border-indigo-300">
+        <h5 class="text-xl font-bold text-indigo-700 mb-2">
+         SUPERIOR KING COTTAGE (SAMPAGUITA)
+        </h5>
+        <p class="text-indigo-900 font-semibold mb-1">
+         ₱6,000.00 per night
+        </p>
+        <p class="text-gray-700 mb-3">
+         A hut for two, nestled in greenery, with a balcony that gives a lovely view of the sea. Perfect for couples who wish to rekindle their love and for newlyweds who seek privacy. It has air conditioning, toilet and bath, and a hot shower.
+        </p>
+        <ul class="list-disc list-inside text-gray-700 mb-3 space-y-1">
+         <li>
+          <strong>
+           Capacity:
+          </strong>
+          2 Adults, 1 Child (3 years old and below)
+         </li>
+         <li>
+          <strong>
+           Extra Bed Capacity:
+          </strong>
+          0
+         </li>
+         <li>
+          <strong>
+           In-Room Amenities:
+          </strong>
+          Toilet and Bath (with heater), Powder Area, Air Conditioning
+         </li>
+         <li>
+          <strong>
+           Inclusions:
+          </strong>
+          FREE Breakfast, Use of all resort facilities and amenities including the infinity pool, On-site museum visit
+         </li>
+        </ul>
+       </article>
+       <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-indigo-400 transition-shadow border border-indigo-300">
+        <h5 class="text-xl font-bold text-indigo-700 mb-2">
+         SUPERIOR KING ROOM
+        </h5>
+        <p class="text-indigo-900 font-semibold mb-1">
+         ₱6,000.00 per night
+        </p>
+        <p class="text-gray-700 mb-3">
+         Located at the Spanish-inspired Lakanipao Lodge with a huge balcony that offers a breathtaking view of the sea, this room is ideal for a group of two to three. It has a king-sized bed (extra bed optional), en suite toilet and bath, and powder area. This room has an airconditioning unit as well as a heater in the bath for hot showers.
+        </p>
+        <ul class="list-disc list-inside text-gray-700 mb-3 space-y-1">
+         <li>
+          <strong>
+           Capacity:
+          </strong>
+          2 Adults, 1 Child (3 years and below)
+         </li>
+         <li>
+          <strong>
+           Extra Bed Capacity:
+          </strong>
+          1
+         </li>
+         <li>
+          <strong>
+           In-Room Amenities:
+          </strong>
+          Toilet and Bath (with heater), Powder Area, Air Conditioning
+         </li>
+         <li>
+          <strong>
+           Inclusions:
+          </strong>
+          FREE Breakfast, Use of all resort facilities and amenities including the infinity pool, On-site museum visit
+         </li>
+        </ul>
+       </article>
+       <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-indigo-400 transition-shadow border border-indigo-300">
+        <h5 class="text-xl font-bold text-indigo-700 mb-2">
+         SUPERIOR TWIN ROOM
+        </h5>
+        <p class="text-indigo-900 font-semibold mb-1">
+         ₱6,000.00 per night
+        </p>
+        <p class="text-gray-700 mb-3">
+         Located at the Spanish-inspired Lakanipao Lodge with a huge balcony that offers a breathtaking view of the sea, this room is ideal for a group of two to three. It has two single beds (extra bed optional), en suite toilet and bath, and powder area. This room has an airconditioning unit as well as a heater in the bath for hot showers.
+        </p>
+        <ul class="list-disc list-inside text-gray-700 mb-3 space-y-1">
+         <li>
+          <strong>
+           Capacity:
+          </strong>
+          2 Adults, 1 Child (3 years and below)
+         </li>
+         <li>
+          <strong>
+           Extra Bed Capacity:
+          </strong>
+          1
+         </li>
+         <li>
+          <strong>
+           In-Room Amenities:
+          </strong>
+          Toilet and Bath (with heater), Powder Area, Air Conditioning
+         </li>
+         <li>
+          <strong>
+           Inclusions:
+          </strong>
+          FREE Breakfast, Use of all resort facilities and amenities including the infinity pool, On-site museum visit
+         </li>
+        </ul>
+       </article>
+       <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-indigo-400 transition-shadow border border-indigo-300">
+        <h5 class="text-xl font-bold text-indigo-700 mb-2">
+         SUPERIOR FAMILY ROOM (NARRA)
+        </h5>
+        <p class="text-indigo-900 font-semibold mb-1">
+         ₱8,500.00 per night
+        </p>
+        <p class="text-gray-700 mb-3">
+         Two rooms at the Narra Hut. The Narra Hut is perfect for small groups and families. Each room in this hut can accommodate up to four persons. Nestled among the trees with a view of the sea, this hut allows you to appreciate nature while having the comforts of a spacious room. A veranda opens up to the surrounding trees and the welcoming sea breeze. The Narra Hut is ideally situated near the infinity pool and other sites of interest in the resort, such as the hanging bridge and the museum.
+        </p>
+        <ul class="list-disc list-inside text-gray-700 mb-3 space-y-1">
+         <li>
+          <strong>
+           Capacity:
+          </strong>
+          4 Adults, 1 Child (3 years and below)
+         </li>
+         <li>
+          <strong>
+           Extra Bed Capacity:
+          </strong>
+          0
+         </li>
+         <li>
+          <strong>
+           In-Room Amenities:
+          </strong>
+          Toilet and Bath (with heater), Powder Area, Air Conditioning
+         </li>
+         <li>
+          <strong>
+           Inclusions:
+          </strong>
+          FREE Breakfast, Use of all resort facilities and amenities including the infinity pool, On-site museum visit
+         </li>
+        </ul>
+       </article>
+       <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-indigo-400 transition-shadow border border-indigo-300">
+        <h5 class="text-xl font-bold text-indigo-700 mb-2">
+         SUPERIOR DORMITORY ROOM
+        </h5>
+        <p class="text-indigo-900 font-semibold mb-1">
+         ₱12,000.00 per night
+        </p>
+        <p class="text-gray-700 mb-3">
+         Available from Mondays to Thursdays ONLY*. Located at the Spanish-inspired Lakanipao Lodge with a huge balcony that offers a breathtaking view of the sea, this room is ideal for a group of eight to nine. It has four double-deck beds (extra bed optional), en suite toilet and bath, and powder area. This room has an air conditioning unit as well as a heater in the bath for hot showers.
+        </p>
+        <ul class="list-disc list-inside text-gray-700 mb-3 space-y-1">
+         <li>
+          <strong>
+           Capacity:
+          </strong>
+          8 Adults, 2 Children (3 years and below)
+         </li>
+         <li>
+          <strong>
+           Extra Bed Capacity:
+          </strong>
+          1
+         </li>
+         <li>
+          <strong>
+           In-Room Amenities:
+          </strong>
+          Toilet and Bath (with heater), Powder Area, Air Conditioning
+         </li>
+         <li>
+          <strong>
+           Inclusions:
+          </strong>
+          FREE Breakfast, Use of all resort facilities and amenities including the infinity pool, On-site museum visit
+         </li>
+        </ul>
+       </article>
+       <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-indigo-400 transition-shadow border border-indigo-300">
+        <h5 class="text-xl font-bold text-indigo-700 mb-2">
+         SUPERIOR SEASIDE COTTAGE (TALISAY)
+        </h5>
+        <p class="text-indigo-900 font-semibold mb-1">
+         ₱14,500.00 per night
+        </p>
+        <p class="text-gray-700 mb-3">
+         Situated nearest the sea, the Talisay Lodge is Punta Verde Dive's newest offering--ideal for those who love the ocean breeze and the sound of waves. It can accommodate up to eight adults, and has its own dining and socializing area. The Talisay Lodge (formerly the Divers Hut), is now fully-air conditioned and has an en suite toilet and bath.
+        </p>
+        <ul class="list-disc list-inside text-gray-700 mb-3 space-y-1">
+         <li>
+          <strong>
+           Capacity:
+          </strong>
+          8 Adults, 2 Children (3 years and below)
+         </li>
+         <li>
+          <strong>
+           Extra Bed Capacity:
+          </strong>
+          0
+         </li>
+         <li>
+          <strong>
+           In-Room Amenities:
+          </strong>
+          Toilet and Bath (with heater), Private Veranda, Air Conditioning, Beach Access
+         </li>
+         <li>
+          <strong>
+           Inclusions:
+          </strong>
+          Complimentary Breakfast, Use of all resort facilities and amenities including the infinity pool, On-site museum visit
+         </li>
+        </ul>
+       </article>
+      </div>
+      <div class="mt-8 bg-indigo-100 rounded-xl p-6 text-indigo-900 font-semibold text-center shadow-inner">
+       <p>
+        You can directly book at the Punta Verde Resort
+        <a class="underline hover:text-indigo-700" href="https://www.puntaverde.ph" rel="noopener" target="_blank">
+         https://www.puntaverde.ph
+        </a>
+        or to other Booking Platforms like Tripadvisor, Agoda and Booking.com
+       </p>
+      </div>
+     </section>
+    </article>
    </div>
-  </section>
-  
 
-  <!-- Contact Section -->
-  <section class="bg-green-700 text-white py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto" id="contact">
-   <h2 class="text-4xl font-bold mb-8 text-center">
-    Contact Information
-   </h2>
-   <div class="space-y-8 text-center max-w-3xl mx-auto text-lg leading-relaxed">
-    <div>
-     <h3 class="text-2xl font-semibold mb-2">
-      Punta Verde Resort
-     </h3>
-     <p>
-      Email:
-      <a class="underline hover:text-yellow-400" href="mailto:puntaverderesorts@gmail.com">
-       puntaverderesorts@gmail.com
-      </a>
-     </p>
-     <p>
-      Sales &amp; Reservations:
-     </p>
-     <p>
-      +63 995 538 8220
-     </p>
-     <p>
-      +63 936 351 5560
-     </p>
-     <p>
-      +63 947 725 9593
-     </p>
-     <p>
-      Viber &amp; WhatsApp (DM only): +63 962 498 5945
-     </p>
-     <p>
-      Onsite Staff:
-     </p>
-     <p>
-      +63 947 725 9593
-     </p>
-     <p>
-      +63 926 841 9179
-     </p>
-    </div>
-    <div>
-     <h3 class="text-2xl font-semibold mb-2">
-      Acre Resort and Spa
-     </h3>
-     <p>
-      Address: Lobo-Malabrigo-Laiya Rd, Brgy. Biga, Lobo, Batangas
-     </p>
-     <p>
-      Mobile: 0917 154 3274
-     </p>
-     <p>
-      Email:
-      <a class="underline hover:text-yellow-400" href="mailto:bookings@submarineresort.com">
-       bookings@submarineresort.com
-      </a>
-     </p>
-     <p>
-      Facebook:
-      <a class="underline hover:text-yellow-400" href="https://www.facebook.com/acreresortandspa" rel="noopener" target="_blank">
-       acreresortandspa
-      </a>
-     </p>
-     <p>
-      Instagram:
-      <a class="underline hover:text-yellow-400" href="https://www.instagram.com/acreresortandspa" rel="noopener" target="_blank">
-       acreresortandspa
-      </a>
-     </p>
-     <p>
-      Website:
-      <a class="underline hover:text-yellow-400" href="https://acre.ph" rel="noopener" target="_blank">
-       acre.ph
-      </a>
-     </p>
-    </div>
-    <div>
-     <h3 class="text-2xl font-semibold mb-2">
-      Cerca Parola Beach Resort
-     </h3>
-     <p>
-      Address: Brgy. Malabrigo, Lobo Batangas, Philippines
-     </p>
-     <p>
-      Contact: 0917 823 6847
-     </p>
-     <p>
-      Email:
-      <a class="underline hover:text-yellow-400" href="mailto:remus_duenas@yahoo.com">
-       remus_duenas@yahoo.com
-      </a>
-     </p>
-     <p>
-      Facebook:
-      <a class="underline hover:text-yellow-400" href="https://www.facebook.com/cercaparolabeachresort/" rel="noopener" target="_blank">
-       cercaparolabeachresort
-      </a>
-     </p>
-     <p>
-      Booking Website:
-      <a class="underline hover:text-yellow-400" href="https://us2.cloudbeds.com/reservation/MJA1Uh" rel="noopener" target="_blank">
-       Cloudbeds Reservation
-      </a>
-     </p>
-    </div>
-    <div>
-     <h3 class="text-2xl font-semibold mb-2">
-      Casa Talia Beach House
-     </h3>
-     <p>
-      Address: Lobo - Malabrigo Road, 4229 Lobo, Philippines
-     </p>
-     <p>
-      Contact: 0966 810 6076
-     </p>
-     <p>
-      Facebook:
-      <a class="underline hover:text-yellow-400" href="https://www.facebook.com/stayatcasatalia/" rel="noopener" target="_blank">
-       stayatcasatalia
-      </a>
-     </p>
-    </div>
-    <div>
-     <h3 class="text-2xl font-semibold mb-2">
-      D Villa Nueva's Beach House
-     </h3>
-     <p>
-      Address: Lobo - Malabrigo Road, 4229 Lobo, Philippines
-     </p>
-     <p>
-      Contact: +63 998 960 2854
-     </p>
-     <p>
-      Email:
-      <a class="underline hover:text-yellow-400" href="mailto:info@dvillanuevasbeachhouse.com">
-       info@dvillanuevasbeachhouse.com
-      </a>
-     </p>
-     <p>
-      Facebook:
-      <a class="underline hover:text-yellow-400" href="https://www.facebook.com/dvillanuevasbeachhouse/" rel="noopener" target="_blank">
-       dvillanuevasbeachhouse
-      </a>
-     </p>
-     <p>
-      Website:
-      <a class="underline hover:text-yellow-400" href="https://www.dvillanuevasbeachhouse.com/" rel="noopener" target="_blank">
-       dvillanuevasbeachhouse.com
-      </a>
-     </p>
-    </div>
-    <div>
-     <h3 class="text-2xl font-semibold mb-2">
-      Booking Support
-     </h3>
-     <p>
-      Hotline:
-      <a class="underline hover:text-yellow-400" href="tel:+639956184896">
-       +63-995-6184-896
-      </a>
-      (Mon-Sun, 9:00 AM–7:00 PM)
-     </p>
-     <p>
-      Email Support:
-      <a class="underline hover:text-yellow-400" href="mailto:support@lobobatangasresort.com">
-       support@lobobatangasresort.com
-      </a>
-     </p>
-     <p>
-      Facebook:
-      <a class="underline hover:text-yellow-400" href="https://www.facebook.com/ILoveLobo" rel="noopener" target="_blank">
-       I Love Lobo
-      </a>
-     </p>
-     <p>
-      Instagram:
-      <a class="underline hover:text-yellow-400" href="https://www.instagram.com/lobobatangas" rel="noopener" target="_blank">
-       @lobobatangas
-      </a>
-     </p>
-     <p>
-      Physical Address: Lobo, Batangas Resort
-     </p>
-    </div>
-   </div>
-  </section>
   <!-- Footer -->
-  <footer class="bg-green-900 text-green-200 py-6 text-center text-sm">
-   © 2024 Punta Verde &amp; Lobo Batangas Tourism Guide. All rights reserved.
+  <footer class="bg-indigo-900 text-indigo-200 py-12 mt-20">
+   <div class="container text-center space-y-6">
+    <p class="text-lg font-semibold">
+     Contact Us
+    </p>
+    <p>
+     Email:
+     <a class="underline hover:text-indigo-400" href="mailto:lobobatangas@gmail.com">
+      lobobatangas@gmail.com
+     </a>
+    </p>
+    <p>
+     Phone:
+     <a class="underline hover:text-indigo-400" href="tel:+639956184896">
+      09956184896
+     </a>
+    </p>
+    <p>
+     Website:
+     <a class="underline hover:text-indigo-400" href="https://lobobatangas.com" rel="noopener" target="_blank">
+      lobobatangas.com
+     </a>
+    </p>
+    <div class="flex justify-center space-x-8 text-3xl">
+     <a aria-label="Facebook" class="hover:text-indigo-400" href="https://facebook.com/lobobatangas" rel="noopener" target="_blank">
+      <i class="fab fa-facebook-square">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-indigo-400" href="https://instagram.com/lobobatangas" rel="noopener" target="_blank">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-indigo-400" href="https://twitter.com/lobobatangas" rel="noopener" target="_blank">
+      <i class="fab fa-twitter-square">
+      </i>
+     </a>
+    </div>
+    <p class="text-sm mt-6 select-none">
+     © 2024 Lobo Batangas Tourism Website. All rights reserved.
+    </p>
+   </div>
   </footer>
  </body>
 </html>
